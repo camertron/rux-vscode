@@ -1,0 +1,25 @@
+{
+    "name": "rux",
+    "displayName": "rux",
+    "description": "Rux syntax highlighting for VSCode.",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rux",
+            "aliases": ["rux"],
+            "extensions": [".rux"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rux",
+            "scopeName": "source.ruby.rux",
+            "path": "./syntaxes/rux.tmLanguage.json"
+        }]
+    }
+}
