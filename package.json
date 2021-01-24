@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "license": "MIT",
     "publisher": "camertron",
+    "repository": "https://github.com/camertron/rux-vscode",
     "engines": {
         "vscode": "^1.52.0"
     },
