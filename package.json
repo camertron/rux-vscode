@@ -13,7 +13,7 @@
         "languages": [{
             "id": "rux",
             "aliases": ["rux"],
-            "extensions": [".rux"],
+            "extensions": [".rux", ".ruxt"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
