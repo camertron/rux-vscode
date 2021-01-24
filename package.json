@@ -2,7 +2,9 @@
     "name": "rux",
     "displayName": "rux",
     "description": "Rux syntax highlighting for VSCode.",
-    "version": "1.0.0",
+    "version": "0.0.0",
+    "license": "MIT",
+    "publisher": "camertron",
     "engines": {
         "vscode": "^1.52.0"
     },
