@@ -2,7 +2,7 @@
     "name": "rux",
     "displayName": "rux",
     "description": "Rux syntax highlighting for VSCode.",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "license": "MIT",
     "publisher": "camertron",
     "engines": {
@@ -12,16 +12,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "rux",
-            "aliases": ["rux"],
-            "extensions": [".rux", ".ruxt"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "rux",
-            "scopeName": "source.ruby.rux",
-            "path": "./syntaxes/rux.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "rux",
+                "aliases": [
+                    "rux"
+                ],
+                "extensions": [
+                    ".rux",
+                    ".ruxt"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "rux",
+                "scopeName": "source.ruby.rux",
+                "path": "./syntaxes/rux.tmLanguage.json"
+            }
+        ]
     }
 }
