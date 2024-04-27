@@ -2286,6 +2286,24 @@
         }
       }
     },
+    "rux-fragment-open": {
+      "match": "(<>)",
+      "name": "fragment.open.ruby",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.tag.begin.ruby"
+        }
+      }
+    },
+    "rux-fragment-close": {
+      "match": "(</>)",
+      "name": "fragment.close.ruby",
+      "captures": {
+        "1": {
+          "name": "punctuation.definition.tag.end.ruby"
+        }
+      }
+    },
     "rux-tag-invalid": {
       "name": "invalid.illegal.tag.incomplete.ruby",
       "match": "<\\s*>"
@@ -2298,6 +2316,12 @@
         },
         {
           "include": "#rux-tag-close"
+        },
+        {
+          "include": "#rux-fragment-open"
+        },
+        {
+          "include": "#rux-fragment-close"
         },
         {
           "include": "#rux-tag-invalid"
